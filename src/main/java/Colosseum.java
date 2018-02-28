@@ -104,6 +104,18 @@ public class Colosseum {
      */
     public static Pokemon buildPokemon() {
         Pokemon returnPokemon = null;
+        Pokemon electricPokemon = new Pokemon();
+        Pokemon firePokemon = new Pokemon();
+        Pokemon waterPokemon = new Pokemon();
+        String myPokemon = "Pikachu";
+        if (electricPokemon == firstPokemon) {
+            for (int i = 1; i < MAX_HIT_POINTS; i++) {
+                if (firstPokemon.getHitPoints() >= 1
+                        && firstPokemon.getHitPoints() <= MAX_HIT_POINTS) {
+                    return firstPokemon.setHitPoints(i);
+                }
+            }
+        }
         return returnPokemon;
     }
 

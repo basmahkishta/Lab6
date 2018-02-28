@@ -132,8 +132,9 @@ public class Pokemon {
      * Sets the hit points to the parameter HP.
      * @param hp the hit points to set our Pokemon's hit points to
      */
-    public void setHitPoints(final int hp) {
+    public Pokemon setHitPoints(final int hp) {
         this.hitPoints = hp;
+        return null;
     }
 
     /**

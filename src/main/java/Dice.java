@@ -17,8 +17,6 @@ public class Dice {
      * Integer representing the number of sides on the die.
      */
     private int numSides;
-
-
     /**
      * Dice constructor.
      *
@@ -29,8 +27,6 @@ public class Dice {
         this.myRand = new Random();
         this.numSides = sides;
     }
-
-
     /**
      * Rolls a pseudorandom number between 1 and the number of sides.
      *
